@@ -2,26 +2,84 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>개인정보처리방침 — 금모닝 (gold morning)</title>
+<title>개인정보처리방침 — 이코노미터 (Econometer)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: -apple-system, "Malgun Gothic", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 2em; }
+  footer { margin-top: 3em; color: #777; font-size: 0.9em; }
+</style>
 </head>
 <body>
 <h1>개인정보처리방침</h1>
-<p>최종 수정일: 2026-07-08</p>
+<p>최종 수정일: 2026-07-16</p>
+
 <h2>1. 개요</h2>
-<p>Stealth(이하 "회사")는 "금모닝(gold morning)" 자동화 앱(이하 "본 앱")을 운영하며, 본 앱이 처리하는 정보의 범위와 목적을 아래와 같이 안내합니다.</p>
+<p>주식회사 스텔스(이하 "회사")는 경제 정보 콘텐츠 채널 "이코노미터(Econometer)"를 운영하며,
+회사가 자사 소유 계정에 콘텐츠를 게시하기 위해 사용하는 자동화 도구(이하 "본 앱")가 처리하는
+정보의 범위와 목적을 아래와 같이 안내합니다.</p>
+
 <h2>2. 본 앱의 성격</h2>
-<p>본 앱은 회사가 직접 소유·운영하는 소셜미디어 계정(YouTube, Instagram, Threads, TikTok 등)에 사전 제작된 시황 브리핑 영상을 게시하기 위한 서버 간(API) 자동화 도구입니다. 불특정 다수의 최종 이용자를 대상으로 한 로그인 서비스나 앱이 아니며, 회사 소유 계정 외 제3자 계정 정보에 접근하거나 이를 수집하지 않습니다.</p>
+<p>본 앱은 회사가 직접 소유·운영하는 소셜미디어 계정(YouTube, Instagram, Threads, Facebook)에
+사전 제작된 경제 해설 영상을 게시하기 위한 <strong>서버 간(API) 자동화 도구</strong>입니다.
+불특정 다수의 최종 이용자를 대상으로 한 로그인 서비스나 앱이 아니며,
+사용자 인터페이스가 없고, 회사 소유 계정 외 <strong>제3자 계정 정보에 접근하거나 이를 수집하지 않습니다.</strong></p>
+
 <h2>3. 수집하는 정보</h2>
 <p>본 앱은 다음 정보만을 처리합니다.</p>
-<p>(1) 회사 소유 소셜미디어 계정의 OAuth 접근 토큰(콘텐츠 게시 권한 확인 용도)<br>(2) 게시할 영상·이미지·텍스트 등 회사가 직접 제작한 콘텐츠</p>
-<p>본 앱은 시청자·구독자 등 제3자의 개인정보(이름, 연락처, 시청 기록 등)를 수집하지 않습니다.</p>
+<p>(1) 회사 소유 소셜미디어 계정의 OAuth 접근 토큰(콘텐츠 게시 권한 확인 용도)<br>
+(2) 게시할 영상·이미지·텍스트 등 회사가 직접 제작한 콘텐츠</p>
+<p>본 앱은 시청자·구독자 등 <strong>제3자의 개인정보(이름, 연락처, 시청 기록 등)를 수집하지 않습니다.</strong>
+본 앱은 YouTube 등 플랫폼의 데이터를 조회·저장·재배포하지 않으며, 회사 자신의 업로드 결과를 확인하는 용도 외에는
+플랫폼 데이터를 읽지 않습니다.</p>
+
 <h2>4. 정보의 이용 목적</h2>
-<p>수집된 접근 토큰은 오직 회사 소유 계정에 콘텐츠를 게시하는 목적으로만 사용되며, 다른 목적으로 이용되거나 제3자에게 제공되지 않습니다.</p>
+<p>수집된 접근 토큰은 오직 회사 소유 계정에 콘텐츠를 게시하는 목적으로만 사용되며,
+다른 목적으로 이용되거나 제3자에게 제공되지 않습니다.</p>
+
 <h2>5. 보관 및 보안</h2>
-<p>접근 토큰은 회사 내부 서버에 보관되며, 회사 소속 담당자만 접근할 수 있습니다. 콘텐츠 게시 목적이 소멸하거나 계정 연동이 해제되면 지체 없이 파기합니다.</p>
-<h2>6. 제3자 제공</h2>
-<p>회사는 수집한 정보를 외부에 판매하거나 제공하지 않습니다. 단, 각 플랫폼(YouTube, Meta, TikTok 등)의 API 서버로 게시 요청을 전송하는 과정에서 해당 플랫폼사에 전달되는 정보는 각 플랫폼사의 개인정보처리방침을 따릅니다.</p>
-<h2>7. 문의</h2>
+<p>접근 토큰은 회사가 관리하는 저장소의 로컬 파일로 보관하며, 회사 소속 담당자만 접근합니다.</p>
+
+<h2>6. YouTube API Services 관련 고지</h2>
+<p>본 앱은 <strong>YouTube API Services</strong>를 사용합니다. 이용자는 다음을 확인하시기 바랍니다.</p>
+<ul>
+  <li><a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a></li>
+  <li><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></li>
+  <li>Google 보안 설정에서 본 앱의 접근 권한을 언제든 철회할 수 있습니다:
+      <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a></li>
+</ul>
+<p>본 앱이 YouTube API Services를 통해 처리하는 정보는 <strong>회사 소유 계정의 OAuth 접근 토큰과,
+회사 자신이 업로드한 영상의 처리 상태</strong>가 전부입니다. 본 앱은 시청자 데이터, 댓글, 다른 채널의
+데이터를 조회·저장·재배포하지 않습니다.</p>
+
+<h2>7. 데이터 삭제 정책</h2>
+<p>회사는 아래와 같이 데이터를 삭제합니다.</p>
+<p>(1) <strong>보관 기간</strong> — YouTube API Services에서 얻은 인가 정보(접근·갱신 토큰)는 게시 목적에
+필요한 기간에만 보관하며, 목적이 소멸하거나 계정 연동이 해제되면 <strong>지체 없이 파기</strong>합니다.<br>
+(2) <strong>자동 삭제</strong> — 업로드 확인 목적으로 일시적으로 처리한 API 응답 데이터는 작업 종료 시
+파기하며, 30일을 넘겨 보관하지 않습니다.<br>
+(3) <strong>철회 시 삭제</strong> — 이용자가 Google 계정 권한 페이지에서 본 앱의 접근을 철회하면,
+회사는 보유 중인 해당 토큰을 즉시 파기합니다.<br>
+(4) <strong>삭제 요청</strong> — 삭제를 요청하려면
+<a href="mailto:stealth@stealthkorea.com">stealth@stealthkorea.com</a> 으로 연락 주십시오.
+본인 확인 후 지체 없이 처리합니다.</p>
+<p>본 앱은 제3자의 개인정보를 수집하지 않으므로, 시청자·구독자의 개인정보에 대해 삭제할 보유 데이터가 없습니다.</p>
+
+<h2>8. 제3자 제공</h2>
+<p>회사는 수집한 정보를 외부에 판매하거나 제공하지 않습니다. 단, 각 플랫폼(YouTube, Meta 등)의
+API 서버로 게시 요청을 전송하는 과정에서 해당 플랫폼사에 전달되는 정보는 각 플랫폼사의
+개인정보처리방침을 따릅니다.</p>
+<p>YouTube API Services 이용과 관련하여 회사는
+<a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a> 및
+<a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 준수합니다.</p>
+
+<h2>9. 콘텐츠 고지</h2>
+<p>본 앱이 게시하는 콘텐츠의 캐릭터와 음성은 AI로 제작되며, 각 영상 설명란에 이를 공개합니다.
+콘텐츠는 정보 제공을 목적으로 하며 투자 자문이 아닙니다.</p>
+
+<h2>10. 문의</h2>
 <p>개인정보 관련 문의: <a href="mailto:stealth@stealthkorea.com">stealth@stealthkorea.com</a></p>
+
+<footer>주식회사 스텔스 · 이코노미터(Econometer)</footer>
 </body>
 </html>
